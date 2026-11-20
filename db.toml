@@ -1,0 +1,11 @@
+[cveDict]
+type = "sqlite3"
+SQLite3Path = "/vuls/cve.sqlite3"
+
+[ovalDict]
+type = "sqlite3"
+SQLite3Path = "/vuls/oval.sqlite3"
+
+[exploit]
+type = "sqlite3"
+SQLite3Path = "/vuls/go-exploitdb.sqlite3"

@@ -1,0 +1,41 @@
+# Базы данных уязвимостей Vuls (включая SQLite, BoltDB и временные файлы)
+vuls.db
+*.db
+cve.sqlite3
+oval.sqlite3
+go-exploitdb.sqlite3
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Временные файлы конфигурации
+.merged_config.toml
+
+# Директории результатов сканирования и логов
+results/
+logs/
+*.log
+
+# Файлы отчетов (на случай генерации в корень проекта или вне results/)
+full_report.txt
+full_report.json
+full_report.html
+latest_report.txt
+
+# Конфигурация с реальными IP-адресами и пользователями (используйте servers.toml.example)
+servers.toml
+
+# Приватные SSH-ключи и known_hosts (на случай копирования в папку проекта)
+id_rsa*
+id_ecdsa*
+id_ed25519*
+known_hosts*
+*.pem
+
+# Системные файлы ОС и IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

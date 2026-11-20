@@ -1,0 +1,15 @@
+[default]
+port        = "22"
+user        = "vuls-user"
+keyPath     = "/root/.ssh/id_ecdsa"
+scanMode    = ["fast"] # Доступно: fast, fast-root, deep, offline
+
+[servers]
+
+[servers.example-host-1]
+host = "192.168.1.10"
+
+[servers.example-host-2]
+host     = "192.168.1.11"
+port     = "2222"
+scanMode = ["fast-root"]
